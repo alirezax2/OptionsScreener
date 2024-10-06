@@ -1,0 +1,6 @@
+panel
+hvplot
+holoviews
+bokeh
+yfinance
+datasets
