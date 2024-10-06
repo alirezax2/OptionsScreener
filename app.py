@@ -84,5 +84,5 @@ def get_DF(DF,ticker, Sector,MarketCap):
 pn.extension('tabulator')
 bound_plot = pn.bind(get_DF, DF=df,ticker=ticker, Sector=Sector ,MarketCap=MarketCap)
 
-pn.Column(pn.Row(pn.Column(ticker, MarketCap, Sector),bound_plot)).servable(title="Option Screener")
+pn.Column(pn.Row(pn.Column(ticker, MarketCap, Sector),bound_plot)).servable(title="Option Volatility View")
 
